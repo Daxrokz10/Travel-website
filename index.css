@@ -62,27 +62,31 @@ h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 70px;
 }
-.content{
+.content1{
     color: white;
     
 }
 p{
     font-size: 40px;
 }
-.content form{
+.content1 form {
     display: flex;
-    align-items: left;
-    background:white ;
+    align-items: center;
+    background: white;
     border-radius: 5px;
     padding: 10px;
     margin-top: 30px;
+    width: fit-content; /* Ensure form width fits content */
 }
-.content form input{
+
+.content1 form input {
     border: 0;
     outline: 0;
     font-size: 16px;
     padding-left: 10px;
+    width: 250px; /* Adjust width of the input field */
 }
+
 .search {
     border: 0;
     border-radius: 5px;
@@ -94,3 +98,16 @@ p{
     font-weight: 500x;
     margin-left: 10px; /* Add some space between input and button */
 }
+.travelo{
+    font-family: "Playwrite NZ", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .content2{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 400;
+    color: hotpink;
+    font-size: larger;
+  }
