@@ -27,12 +27,32 @@
             <h1>Explore<br/>with Travelo</h1>   
             <p>Book your next trip with us to ensure safe travel without hurting you wallet</p>
             <form>
-                <input type="text" placeholder="Country Name">
+                <input id="countryn" type="text" size="20px" list="countrysugg" placeholder="Country Name">
+                <button class="search"><input id="date" type="date"></button>
                 <button type="submit" class="search">Search</button>
+                <datalist id="countrysugg">
+                    <option value="India">India</option>
+                    <option value="China">China</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="Japan">Japan</option>
+                    <option value="United States of America">United States of America</option>
+                </datalist>
             </form>
             
-
+            
         </div>
+
+    <div class="ourreccomendations">
+        <table>
+            <tr class="trimg">
+                <td style="background-repeat: no-repeat; height: 260px; width: 500px; background-image: url(./images/Jaipur.avif);"><mark>Jaipur</mark></td>
+                <td style="background-repeat: no-repeat; height: 260px; width: 500px; background-image: url(./images/manali.avif);"><mark>Manali</td>
+                <td style="background-repeat: no-repeat; height: 260px; width: 500px; background-image: url(./images/Mysore.avif);"><mark>Mysore</td>
+                <td style="background-repeat: no-repeat; height: 260px; width: 500px; background-image: url(./images/Mumbai.avif);"><mark>Mumbai</td>
+            </tr>
+        </table>
+    </div>
+
         <div class="content2">
            <span>Our Partners</span>
             <nav>
