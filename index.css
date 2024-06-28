@@ -142,7 +142,7 @@ mark{
 }
 footer{
     width: 100%;
-    background-color: #f5168d;
+    background-color: #f5168d   ;
     padding-bottom: 100px;
 }
 .travelofoot{
@@ -152,9 +152,14 @@ footer{
     font-style: normal;
     text-align: left;
    display: inline-block;
+   margin-left: 10px;
   }
   .brands{
     display: inline-block;
-    margin-left: 1100px;
+    margin-left: 1000px;
     font-size: 20px;
+  }
+  .fa-brands{
+    padding: 5px;
+    text-decoration: none;
   }
