@@ -163,3 +163,38 @@ footer{
     padding: 5px;
     text-decoration: none;
   }
+  .user-menu {
+    position: relative;
+    display: inline-block;
+    margin-right: -150px; /* Adjust to align the user icon properly */
+}
+
+.user-menu .fa-user {
+    color: #fff;
+    cursor: pointer;
+}
+
+.user-options {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.user-options a {
+    color: black;
+    padding: 12px 40px;
+    text-decoration: none;
+    display: block;
+}
+
+.user-options a:hover {
+    background-color: #f1f1f1;
+}
+
+.user-menu:hover .user-options {
+    display: block;
+}
