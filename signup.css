@@ -4,7 +4,7 @@ body{
 .container{
     height: 400px;
     width: 300px;
-    background-image: linear-gradient(rgba(8, 203, 238, 0.65), rgba(0, 55, 77, 0.65));
+    background-image: linear-gradient(rgba(8, 12, 238, 0.65), rgba(240, 21, 6, 0.938));
     margin: auto;
     margin-top: 10%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -15,11 +15,12 @@ form{
     margin-top: 30%;
 }
 form input{
-    height: 30px;
+    height: 35px;
     width: 80%;
     border-color: #f5168d;
     border-radius: 10%;
     margin-left: 8%;
+    
     
 }
 p{
@@ -37,6 +38,19 @@ button{
     cursor: pointer;
     font-weight: 500x;
     margin-left: 35%;
+    margin-top: 30px;
+}
+.loginb{
+    margin-right:-70px;
+    border:0;
+    border-radius: 5px;
+    background: #f5168d;
+    color: white;
+    padding: 10px 20px;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 500x;
+    margin-left: 40%;
     margin-top: 30px;
 }
 
