@@ -7,7 +7,7 @@
 .container {
     min-height: 100vh;
     height: fit-content;
-    background-image: linear-gradient(rgba(9,0,77,0.65), rgba(9,0,77,0.65)), url(images/backgroundimage.jpg);
+    background-image: linear-gradient(rgba(8, 1, 66, 0.65), rgba(10, 2, 54, 0.884)), url(images/backgroundimage.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -15,7 +15,7 @@
     overflow: hidden;
 }
 
-nav {
+#nav1 {
     display: flex;
     width: 100%;
     align-items: center;
@@ -23,22 +23,22 @@ nav {
     padding: 10px 0;
 }
 
-nav ul {
+#nav1 ul {
     list-style: none;
     display: flex;
     padding: 0;
 }
 
-nav ul li {
+#nav1 ul li {
     margin: 0 20px;
 }
 
-nav ul li a {
+#nav1 ul li a {
     color: #fff;
     text-decoration: none;
 }
 
-nav ul li a:hover {
+#nav1 ul li a:hover {
     text-decoration: underline;
 }
 .fa-regular.fa-user {
@@ -197,4 +197,12 @@ footer{
 
 .user-menu:hover .user-options {
     display: block;
+}
+#nav2{
+    text-align: center;
+    
+}
+#nav a{
+    color: black;
+    text-decoration: none;
 }
