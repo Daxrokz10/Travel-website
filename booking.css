@@ -1,28 +1,58 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    
+
 }
 .going{
-    height: 100px;
-    border: 2px solid pink;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 200px;
+    height: 60px;
+    border: 1px solid pink;
     display: inline-block;
     background-color: hotpink;
-    height: 500px;
+    margin-top: 200px;
+
+}
+.allitems{
+    margin-top: 3px;
 }
 input::placeholder{
     font-size: 20px;
 }
 .textin{
+    margin-left: 20px;
     background-color:white;
     display: inline-block;
-    border-radius: 7%;
+    border-radius: 10px 10px 10px 10px;
 }
 .dates{
     display: inline-block;
     background-color: white;
-    border-radius: 7%;
+    border-radius: 10px 10px 10px 10px;
     width: 235px;
 
 }
 input[type=date]{
     width: 17px;
+}
+.selectl{
+    height: 50px;
+    width: 250px;
+    background-color: white;
+}
+.buttons{
+    display: inline-block;
+}
+.searchb{
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    border:0;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(252, 13, 112),rgb(183, 0, 255));
+    color: white;
+    padding: 10px 20px;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 500x;
 }
