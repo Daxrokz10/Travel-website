@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.going{
+    height: 100px;
+    border: 2px solid pink;
+    display: inline-block;
+    background-color: hotpink;
+    height: 500px;
+}
+input::placeholder{
+    font-size: 20px;
+}
+.textin{
+    background-color:white;
+    display: inline-block;
+    border-radius: 7%;
+}
+.dates{
+    display: inline-block;
+    background-color: white;
+    border-radius: 7%;
+    width: 235px;
+
+}
+input[type=date]{
+    width: 17px;
+}
