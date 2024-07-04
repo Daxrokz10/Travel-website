@@ -1,7 +1,5 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    
-
+    font-family:Arial, Helvetica, sans-serif;
 }
 .going{
     border-radius: 10px 10px 10px 10px;
@@ -11,6 +9,7 @@ body{
     display: inline-block;
     background-color: hotpink;
     margin-top: 200px;
+    
 
 }
 .allitems{
@@ -18,6 +17,7 @@ body{
 }
 input::placeholder{
     font-size: 20px;
+    font-family: "Lora", serif;
 }
 .textin{
     margin-left: 20px;
@@ -34,11 +34,13 @@ input::placeholder{
 }
 input[type=date]{
     width: 17px;
+    margin-left: 0px;
 }
 .selectl{
     height: 50px;
     width: 250px;
     background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .buttons{
     display: inline-block;
