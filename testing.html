@@ -8,6 +8,22 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&family=Playwrite+NZ:wght@100..400&display=swap" rel="stylesheet">
+
+    <style>
+    
+        .gradient-text {
+            background: linear-gradient(45deg, #ff6b6b, #f06595, #cc5de8, #845ef7, #5c7cfa, #339af0, #22b8cf, #20c997, #51cf66, #94d82d, #fcc419, #ff922b);
+            -webkit-background-clip: text;
+            color: transparent;
+            transition: background 0.5s ease;
+        }
+
+        .gradient-text:hover {
+            background: linear-gradient(45deg, #ff922b, #fcc419, #94d82d, #51cf66, #20c997, #22b8cf, #339af0, #5c7cfa, #845ef7, #cc5de8, #f06595, #ff6b6b);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -44,8 +60,8 @@
                 </datalist>
             </form>
         </div>
-
-            <h1 id="travelrec">Travel Recommendations</h1>
+        <div class="wrapper">
+            <h1 class="gradient-text">Travel Recommendations</h1>
         <div class="ourreccomendations">
             <section><img class="recommendation" src="./images/Jaipur.avif" alt="Jaipur"></section>
             <section><img class="recommendation" src="./images/manali.avif" alt="Manali"></section>

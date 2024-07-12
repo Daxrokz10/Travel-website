@@ -178,17 +178,18 @@ p{
 .ourreccomendations:hover section:nth-child(4) {
     transform: rotate(0deg) translateX(410px);
 }
-#travelrec{
-    background: linear-gradient(45deg, #ff6b6b, #f06595, #cc5de8, #845ef7, #5c7cfa, #339af0, #22b8cf, #20c997, #51cf66, #94d82d, #fcc419, #ff922b);
-    -webkit-background-clip: text;
-    color: transparent;
-    transition: background 0.5s ease;
-}
+.ourreccomendations:hover #travelrec{
 
-#travelrec:hover {
-    background: linear-gradient(45deg, #ff922b, #fcc419, #94d82d, #51cf66, #20c997, #22b8cf, #339af0, #5c7cfa, #845ef7, #cc5de8, #f06595, #ff6b6b);
-    -webkit-background-clip: text;
-    color: transparent;
+}
+.gradient-text:hover {
+    background: linear-gradient(to right, #f5168d, #ffcc33); /* Hover color */
+}
+.gradient-text{
+    text-align: center;
+    font-size: 40px;
+}
+.gradient-text::after{
+    background: linear-gradient(to right, #ffcc33, #f5168d);
 }
 
 footer{
